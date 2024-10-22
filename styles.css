@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #dd4141;
+    color: rgb(79, 1, 135);
+}
+
+nav ul {
+    list-style-type: rgb;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: rgb(213, 249, 10);
+    text-decoration: rgb(103, 109, 223);
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #08cefb;
+    color: rgb(234, 53, 197);
+    border: rgb(220, 127, 12);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d2a70bd5;
+}
